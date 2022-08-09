@@ -1,6 +1,9 @@
 # learn-v8
 v8 learning stuff
 
+# disclaimer
+please only use it for learning/testing purpose. I'm not responsible for any consequences done with illegal/unpermitted actions.
+
 # docker environment
 currently doesn't have many versions. refer to https://hub.docker.com/r/brdns/v8/tags to see all available versions.
 
