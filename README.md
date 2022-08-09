@@ -13,3 +13,8 @@ running images
 ```
 docker run --rm -it brdns/v8:<version>
 ```
+# notes
+refer to my blog on v8: https://y4y.space/2022/08/05/browser-exploitation-a-case-study-of-cve-2020-6507/
+
+# exploits
+all exploits are tested on Kali Linux 2021.1 and my docker images. all shellcodes in my exploits executes `execve("/bin/bash", null, null)`.
