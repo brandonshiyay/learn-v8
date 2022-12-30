@@ -28,4 +28,6 @@ the table below shows CVE exploits and the corresponded v8 version I developed e
 |---|---|
 |CVE-2020-6507|8.3.110.9|
 |CVE-2021-30632|9.3.345.16|
+|CVE-2021-30517|9.0.257.23|
+|CVE-2021-20220|8.9.255.24|
 
