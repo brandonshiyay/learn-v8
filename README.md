@@ -17,10 +17,12 @@ running images
 docker run --rm -it brdns/v8:<version>
 ```
 # notes
-refer to my blog on v8: https://y4y.space/2022/08/05/browser-exploitation-a-case-study-of-cve-2020-6507/
+refer to my blog on v8: 
+- https://y4y.space/2022/08/05/browser-exploitation-a-case-study-of-cve-2020-6507/
+- https://y4y.space/2023/05/06/cve-2021-38001-a-brief-introduction-to-v8-inline-cache-and-exploitating-type-confusion/
 
 # CVEs & exploits
-all exploits are tested on Kali Linux 2021.1 and my docker images (Ubuntu 20.04 base). all shellcodes in my exploits executes `execve("/bin/bash", null, null)`.
+all exploits are tested on Kali Linux 2021.1 / ubuntu 22.04 and my docker images (Ubuntu 20.04 base). all shellcodes in my exploits executes `execve("/bin/bash", null, null)`.
 
 the table below shows CVE exploits and the corresponded v8 version I developed exploits on:
 
@@ -30,4 +32,5 @@ the table below shows CVE exploits and the corresponded v8 version I developed e
 |CVE-2021-30632|9.3.345.16|
 |CVE-2021-30517|9.0.257.23|
 |CVE-2021-20220|8.9.255.24|
+|CVE-2021-38001|9.5.172.21|
 
